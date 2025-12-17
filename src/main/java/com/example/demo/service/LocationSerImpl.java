@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import com.example.demo.entity.Location;
 import com.example.demo.repository.LocationR;
-@service
 
 public class LocationSerImpl implements LocationSer {
 
