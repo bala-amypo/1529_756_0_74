@@ -1,7 +1,5 @@
 package com.example.demo.repository;
-
-import java.lang.reflect.AccessFlag.Location;
-
+import com.example.demo.entity.Location;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface LocationR extends JpaRepository<Location,Long>{
